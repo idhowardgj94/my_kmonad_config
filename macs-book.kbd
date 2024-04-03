@@ -22,6 +22,8 @@
 )
 |#
 
+(defalias
+  caps-lctrl (tap-hold-next 200 caps lctrl))
 #|
 for mac books, dvorak keyboard layout is working fine.
 so just change some key position.
@@ -29,7 +31,7 @@ so just change some key position.
 (deflayer base
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
-  lctl    _    _    _    _    _    _    _    _    _    _    _    _
+  @caps-lctrl    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _
   lmet    caps    fn    lalt              _              _    _    _    _    _
 )
