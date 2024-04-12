@@ -23,7 +23,7 @@
 |#
 
 (defalias
-  caps-lctrl (tap-hold-next 200 caps lctrl))
+  caps-lctrl (tap-hold-next 500 caps lctrl))
 #|
 for mac books, dvorak keyboard layout is working fine.
 so just change some key position.
