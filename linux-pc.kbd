@@ -64,7 +64,7 @@
   _    _    _    _    _    _    _    _    _    _    _    _    _              _    @dvo_    _
   _    1    2    3    4    5    6    7    8    9    0    -    =    _         _    _    _    _    _    _    _
   _    q    w    e    r    t    y    u    i    o    p    [    ]    _         _    _    _    _    _    _    _
-  _    a    s    d    f    g    h    j    k    l    ;    '         _                        _    _    _
+  @caps-lctrl    a    s    d    f    g    h    j    k    l    ;    '         _                        _    _    _
   _    z    x    c    v    b    n    m    ,    .    /    _                        _         _    _    _    _
   _    _    _              _                   _    _    _    _              _    _    _    _    _
 )
@@ -73,7 +73,7 @@
   _    _    _    _    _    _    _    _    _    _    _    _    _              _    @qwe_    _
   _    1    2    3    4    5    6    7    8    9    0    [    ]    _         _    _    _    _    _    _    _
   _    '    ,    .    p    y    f    g    c    r    l    /    =    _         _    _    _    _    _    _    _
-  _    a    o    e    u    i    d    h    t    n    s    -         _                        _    _    _
+  @caps-lctrl    a    o    e    u    i    d    h    t    n    s    -         _                        _    _    _
   _    ;    q    j    k    x    b    m    w    v    z    _                        _         _    _    _    _
   _    _    _              _                   _    _    _    _              _    _    _    _    _
   )
@@ -186,6 +186,8 @@
   dvo_ (layer-switch dvorak)
   qwe_ (layer-switch qwerty)
 )
+(defalias
+  caps-lctrl (tap-hold-next 500 caps lctrl))
 
 #| --------------------------------------------------------------------------
                         Optional: Command buttons
